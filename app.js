@@ -23,7 +23,6 @@ btn1.addEventListener("click", function(){
 
     tg.MainButton.setText('Оформить заказ');
     tg.MainButton.show();
-	tg.sendData(item);
 });
 
 btn2.addEventListener("click", function(){
@@ -66,5 +65,5 @@ btn4.addEventListener("click", function(){
 });
 
 Telegram.WebApp.onEvent("mainButtonClicked", function(){
-	tg.sendData(item);
+    tg.sendData("lol");
 });
