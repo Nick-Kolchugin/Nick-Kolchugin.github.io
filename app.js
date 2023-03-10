@@ -23,6 +23,7 @@ btn1.addEventListener("click", function(){
 
     tg.MainButton.setText('Оформить заказ');
     tg.MainButton.show();
+	tg.sendData(item);
 });
 
 btn2.addEventListener("click", function(){
