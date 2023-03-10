@@ -22,6 +22,7 @@ btn1.addEventListener("click", function(){
     }
 
     tg.MainButton.setText('Оформить заказ');
+    tg.MainButton.show();
 });
 
 btn2.addEventListener("click", function(){
@@ -34,6 +35,7 @@ btn2.addEventListener("click", function(){
     }
 
     tg.MainButton.setText('Оформить заказ');
+    tg.MainButton.show();
 });
 
 btn3.addEventListener("click", function(){
@@ -46,6 +48,7 @@ btn3.addEventListener("click", function(){
     }
 
     tg.MainButton.setText('Оформить заказ');
+    tg.MainButton.show();
 });
 
 btn4.addEventListener("click", function(){
@@ -58,6 +61,7 @@ btn4.addEventListener("click", function(){
     }
 
     tg.MainButton.setText('Оформить заказ');
+    tg.MainButton.show();
 });
 
 Telegram.WebApp.onEvent("mainButtonClicked", function(){
